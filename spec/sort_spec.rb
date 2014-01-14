@@ -1,21 +1,4 @@
-require 'rspec'
-
-
-# TODO move out of
-module Sort
-
-end
-
-module Sort::Bubble
-  def self.sort(array)
-    # TODO use a real bubble sorting
-    array.sort
-  end
-end
-
-RSpec.configure do |c|
-  c.alias_it_should_behave_like_to :behaves_as, 'behaves as:'
-end
+require 'spec_helper'
 
 RSpec::Matchers.define :sorted do |expected|
   chain :by do |klass|
