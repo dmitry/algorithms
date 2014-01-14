@@ -11,9 +11,9 @@ RSpec::Matchers.define :sorted do |expected|
 end
 
 
-shared_examples_for 'sort' do |klass|
-  SORTED = (0..10).to_a
+SORTED = (0..10).to_a
 
+shared_examples_for 'sort' do |klass|
   it 'reversed' do
     expect(SORTED.dup.reverse).to sorted(SORTED).by(klass)
   end

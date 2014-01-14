@@ -1,13 +1,17 @@
 module Sort::Bubble
-  def self.sort(array)
-    size = array.size
+  def self.sort(a)
+    l = a.length
 
-    (0..size).each do |i|
-      ((1 + i)..(size - 1)).each do |l|
-        array[i], array[l] = array[l], array[i] if array[i] > array[l]
+    return a if l <= 1
+
+    0.upto(l - 1) do |t|
+      0.upto(l - 2 - t) do |i|
+        if a[i] > a[i + 1]
+          a[i], a[i + 1] = a[i + 1], a[i]
+        end
       end
     end
 
-    array
+    a
   end
 end
