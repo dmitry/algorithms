@@ -5,4 +5,5 @@ module Sort
 
   autoload :Bubble
   autoload :Selection
+  autoload :Insertion
 end

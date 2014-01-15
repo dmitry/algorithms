@@ -4,7 +4,6 @@ module Sort::Selection
 
     return a if l <= 1
 
-
     0.upto(l - 1) do |t|
       min = t
 

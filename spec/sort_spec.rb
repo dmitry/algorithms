@@ -33,6 +33,9 @@ shared_examples_for 'sort' do |klass|
   it 'empty' do
     expect([]).to sorted([]).by(klass)
   end
+
+  it 'few unique'
+  it 'nearly sorted'
 end
 
 Sort.constants.each do |klass_name|
