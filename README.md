@@ -6,13 +6,13 @@ Algorithms of sorting, graphs, trees written in Ruby
 
 ## Sort
 
-- [x] Bubble Sort
-- [x] Insertion Sort
-- [x] Selection Sort
-- [ ] Timsort
-- [ ] Merge Sort
-- [ ] Quicksort
-- [ ] Heap Sort
+- ☑ Bubble Sort
+- ☑ Insertion Sort
+- ☑ Selection Sort
+- ☐ Timsort
+- ☐ Merge Sort
+- ☐ Quicksort
+- ☐ Heap Sort
 
 #### Helpful resources
 
@@ -22,6 +22,6 @@ Algorithms of sorting, graphs, trees written in Ruby
 
 ## Tree
 
-- [ ] Binary Search Tree (BST)
-- [ ] k-dimensional (k-d tree)
-- [ ] Vintage-point Tree (VP tree)
+- ☐ Binary Search Tree (BST)
+- ☐ k-dimensional (k-d tree)
+- ☐ Vintage-point Tree (VP tree)
